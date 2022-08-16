@@ -50,7 +50,7 @@
    
    <tr>
       <td class = "td_left">
-         <label for = "kind">품종 : </label>
+         <label for = "kind">종류 : </label>
       </td>
       <td class = "td_right">
          <input type = "text" name = "kind" id ="kind" required="required"/>
@@ -76,7 +76,7 @@
    </tr>
    <tr>
       <td class = "td_left">
-         <label for = "height">신장 : </label>
+         <label for = "height">크기 : </label>
       </td>
       <td class = "td_right">
          <input type = "text" name = "height" id ="height"/>
@@ -84,7 +84,7 @@
    </tr>
    <tr>
       <td class = "td_left">
-         <label for = "weight">체중 : </label>
+         <label for = "weight">무게 : </label>
       </td>
       <td class = "td_right">
          <input type = "text" name = "weight" id ="weight"/>
@@ -109,9 +109,9 @@
    </tr>
    <tr>
       <td colspan="2" id = "commandCell"> 
-         <input type = "submit" value = "개상품등록"/>      
+         <input type = "submit" value = "상품등록"/>      
          <input type = "reset" value = "다시작성"/>      
-         <input type = "button" value = "개상품목록보기" onClick="window.location.href='dogList.dog'"/>      
+         <input type = "button" value = "상품목록보기" onClick="window.location.href='dogList.dog'"/>      
       </td>
    </tr>   
    </table>
