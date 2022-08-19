@@ -36,7 +36,7 @@
 <body>
 <section id = "registForm">
    <header>
-      <h2>개정보등록</h2>
+      <h2>상품정보등록</h2>
    </header>
       <form action="dogRegist.dog" method="post" name = "writeForm" enctype="multipart/form-data">
       
